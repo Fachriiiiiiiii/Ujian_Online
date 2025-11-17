@@ -1,0 +1,255 @@
+/* ====== GLOBAL STYLE ====== */
+body {
+    font-family: "Poppins", Arial, sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ====== LOGIN & CONTAINER BOX ====== */
+.container, .login-box {
+    margin: 80px auto;
+    background: #ffffff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    width: 400px;
+    box-shadow: 0 5px 25px rgba(0,0,0,0.15);
+    animation: fadeIn 0.6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+/* ====== TITLE ====== */
+h2 {
+    margin-bottom: 20px;
+    color: #1565c0;
+    font-weight: 600;
+    text-shadow: 0 1px 1px rgba(0,0,0,0.1);
+}
+
+/* ====== FORM ELEMENTS ====== */
+input, select, button {
+    margin: 8px 0;
+    padding: 10px;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    transition: all 0.3s;
+}
+
+input:focus, select:focus {
+    border-color: #1565c0;
+    box-shadow: 0 0 6px rgba(21,101,192,0.3);
+    outline: none;
+}
+
+/* ====== BUTTON ====== */
+button {
+    background: #1565c0;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+    border: none;
+}
+
+button:hover {
+    background: #0d47a1;
+}
+
+/* ====== TABLE ====== */
+table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 20px auto;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background: #1565c0;
+    color: white;
+}
+
+tr:hover {
+    background-color: #e3f2fd;
+}
+
+/* ====== LINKS ====== */
+a {
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* ====== FOOTER (Opsional) ====== */
+footer {
+    margin-top: 30px;
+    color: #777;
+    font-size: 13px;
+}
+/* ====== CONTAINER UTAMA ====== */
+.container {
+    margin: 60px auto;
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 900px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ====== JUDUL HALAMAN ====== */
+h2 {
+    color: #1565c0;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+/* ====== LINK TAMBAH DAN KEMBALI ====== */
+.container a {
+    display: inline-block;
+    margin: 5px;
+    color: #1565c0;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.2s;
+}
+
+.container a:hover {
+    color: #0d47a1;
+    transform: scale(1.05);
+}
+
+/* ====== TABEL DATA ====== */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+    background: #f8faff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+th {
+    background: #1565c0;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+tr:nth-child(even) {
+    background-color: #e8f0fe;
+}
+
+tr:hover {
+    background-color: #dbeafe;
+    transition: 0.2s;
+}
+
+/* ====== TOMBOL AKSI ====== */
+.btn-edit, .btn-hapus {
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    border: none;
+    transition: 0.3s;
+}
+
+.btn-edit {
+    background-color: #42a5f5;
+    color: white;
+}
+
+.btn-hapus {
+    background-color: #ef5350;
+    color: white;
+}
+
+.btn-edit:hover {
+    background-color: #1e88e5;
+}
+
+.btn-hapus:hover {
+    background-color: #d32f2f;
+}
+
+body {
+            font-family: "Poppins", sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            background: #fff;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 380px;
+            animation: fadeIn 0.5s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        h2 {
+            margin-bottom: 15px;
+            color: #333;
+        }
+        .menu a {
+            display: inline-block;
+            text-decoration: none;
+            background-color: #1565c0;
+            color: white;
+            padding: 10px 18px;
+            margin: 8px 5px;
+            border-radius: 8px;
+            transition: 0.2s;
+        }
+        .menu a:hover {
+            background-color: #0d47a1;
+        }
+        .icon {
+            font-size: 20px;
+            margin-right: 5px;
+        }
+
+/* ====== RESPONSIVE ====== */
+@media (max-width: 768px) {
+    .container {
+        width: 95%;
+        padding: 20px;
+    }
+    
+    table {
+        font-size: 13px;
+    }
+}
